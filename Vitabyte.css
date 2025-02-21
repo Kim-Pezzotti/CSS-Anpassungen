@@ -1,0 +1,26 @@
+
+
+.services .service .card .card-image img {
+    /* width: auto; */
+    object-fit: cover !important;
+    margin: 0 !important;
+    max-height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    top: 0;
+}
+
+.client-header {
+    visibility: hidden;
+    max-height: 5vh;
+    padding: 0;
+}
+
+footer.page-footer {
+    visibility: hidden;
+    /* padding-top: 20px; */
+    max-height: 5vh;
+    background-color: #ee6e73;
+}
